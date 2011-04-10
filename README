@@ -1,0 +1,5 @@
+stm8FireSensor
+Ride 7 project for microcontroller stm8s103f2p6.
+Purpose: To measure a optical density. Notify external system through UART.
+Used STM8 standard firmware lib.
+Used gpio, adc2, uart2 components.

@@ -1,0 +1,9 @@
+*.AOF
+*.BIN
+*.CSEG
+*.XRF
+*.obj
+*.MAP
+*.lst
+*.XML
+  

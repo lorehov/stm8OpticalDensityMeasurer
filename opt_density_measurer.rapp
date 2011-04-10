@@ -1,0 +1,42 @@
+
+<ApplicationBuild Header="opt_density_measurer" Extern=".\opt_density_measurer.rapp" Path=".\opt_density_measurer.rapp" AsyncBuild="" OutputFile=".\bin\opt_density_measurer.aof" sate="96" >
+	<Group Header="src" Marker="-1" AsyncBuild="" OutputFile="" sate="96" >
+		<NodeC Path=".\src\stm8s_uart1.c" Header="stm8s_uart1.c" Marker="-1" AsyncBuild="" OutputFile=".\bin\stm8s_uart1.obj" sate="0" />
+		<NodeC Path=".\src\stm8s_adc2.c" Header="stm8s_adc2.c" Marker="-1" AsyncBuild="" OutputFile=".\bin\stm8s_adc2.obj" sate="0" />
+		<NodeC Path=".\src\stm8s_clk.c" Header="stm8s_clk.c" Marker="-1" AsyncBuild="" OutputFile=".\bin\stm8s_clk.obj" sate="0" />
+		<NodeC Path=".\src\stm8s_gpio.c" Header="stm8s_gpio.c" Marker="-1" AsyncBuild="" OutputFile=".\bin\stm8s_gpio.obj" sate="0" />
+																																													
+	</Group>
+	<NodeC Path=".\main.c" Header="main.c" Marker="-1" AsyncBuild="" OutputFile=".\bin\main.obj" sate="2" />
+	<NodeH Path=".\main.h" Header="main.h" Marker="-1" AsyncBuild="" OutputFile="" sate="0" />
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ST7" />
+																																																																																																																																																							
+				</Section>
+				<Section Header="Directories" >
+					<Property Header="OutDir" Value="$(ApplicationDir)\bin" Removable="1" />
+					<Property Header="LinkerOutputDir" Value="Output Directory" Removable="1" />
+					<Property Header="IncDir" Value="$(RkitInc);$(RkitInc)\ST7;$(ApplicationDir)\inc" Removable="1" />
+					<Property Header="LibDir" Value="$(RkitLib)\ST7;$(ApplicationDir)\inc" Removable="1" />
+																																																																																																																																														
+				</Section>
+																																																																																																														
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorST7" >
+					<Property Header="Processor" Value="STM8S208RB" Removable="1" />
+																																																																																																																																																							
+				</Section>
+				<Section Header="ToolSetST7" >
+					<Property Header="BuildToolSetST7" Value="ST7\RaisonanceTools.config" Removable="1" />
+					<Property Header="ArelocInfo" Value="" Removable="1" />
+							
+				</Section>
+					
+			</Set>
+		</Config>
+	</Options>
+</ApplicationBuild>

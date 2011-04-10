@@ -1,0 +1,4 @@
+
+<Project Header="Project 'opt_density_measurer'" Path=".\opt_density_measurer.rprj" Project="Yes" AsyncBuild="" OutputFile="" sate="96" ActiveApp="opt_density_measurer" >
+	<ApplicationBuild Header="opt_density_measurer" Extern=".\opt_density_measurer.rapp" Path=".\opt_density_measurer.rapp" AsyncBuild="" OutputFile=".\bin\opt_density_measurer.aof" sate="96" />
+</Project>
